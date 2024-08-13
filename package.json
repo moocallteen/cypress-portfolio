@@ -1,0 +1,15 @@
+{
+  "description": "Cypress E2E testing for portfilio",
+	"main": "cypress.config.js",
+	"scripts": {
+		"test": "npx cypress run --browser chrome --headless",
+		"start": "npx cypress open",
+		"lint": "eslint cypress"
+	},
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
